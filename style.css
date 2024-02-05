@@ -1,4 +1,38 @@
 body{
-    background-color: #F3E5D8;
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.menu-box{
+
+    width: 720px;
+    height: fit-content;
+    padding: 24px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.food_Image img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+h1{
     font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    font-size: 45px;
 }
