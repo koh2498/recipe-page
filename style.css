@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: hsl(30, 54%, 90%);
     font-family: 'Outfit', sans-serif;
@@ -5,8 +10,9 @@ body{
 
 p{
     font-size: 16px;
-    font-weight: 400;
-    color: lightgrey;
+
+    color: hsl(30, 10%, 34%);
+
 }
 
 .menu-box{
@@ -34,5 +40,9 @@ h1{
     font-family: 'Young Serif', sans-serif;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
-    font-size: 45px;
+    padding:20px 0px;
+}
+
+.small_Desc{
+    padding-bottom:20px;
 }
