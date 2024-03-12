@@ -43,6 +43,27 @@ h1{
     padding:20px 0px;
 }
 
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+b {
+    color: hsl(24, 5%, 18%);
+}
+
 .small_Desc{
-    padding-bottom:20px;
+    padding-bottom: 20px;
+}
+
+.prep_Time{
+    padding-left: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+
+}
+
+.prep_Time li{
+    padding-top: 20px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
 }
