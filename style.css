@@ -5,7 +5,7 @@
 
 body{
     background-color: hsl(30, 54%, 90%);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit family', sans-serif;
 }
 
 p{
@@ -43,12 +43,21 @@ h1{
     padding:20px 0px;
 }
 
-h3{
-    color: hsl(332, 51%, 32%);
+h2 {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
 }
 
-b {
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+
+}
+
+.bolden {
     color: hsl(24, 5%, 18%);
+    font-weight: 700;
 }
 
 .small_Desc{
@@ -56,9 +65,10 @@ b {
 }
 
 .prep_Time{
-    padding-left: 20px;
+
     background-color: hsl(330, 100%, 98%);
     border-radius: 20px;
+    padding: 20px 0px 20px 20px;
 
 }
 
@@ -66,4 +76,21 @@ b {
     padding-top: 20px;
     font-size: 16px;
     color: hsl(30, 10%, 34%);
+}
+
+.Ingredients_Header {
+    padding: 20px 0px 10px 0px;
+}
+.Ingredients_List{
+    padding-bottom: 20px;
+}
+.Ingredients_List li{
+    padding-top: 20px;
+
+    color: hsl(30, 10%, 34%);
+}
+
+.border_line {
+    border: 1px solid hsl(30, 18%, 87%);
+    margin: 0px 10px;
 }
